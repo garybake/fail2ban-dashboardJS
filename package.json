@@ -1,0 +1,21 @@
+{
+  "name": "fail2ban-dashboardJS",
+  "version": "0.0.0",
+  "description": "fail2ban-dashboardJS ====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garybake/fail2ban-dashboardJS.git"
+  },
+  "author": "Gary Bake <garybake@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garybake/fail2ban-dashboardJS/issues"
+  },
+  "dependencies": {
+    "express": "~4.9.7"
+  }
+}

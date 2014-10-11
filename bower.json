@@ -1,0 +1,21 @@
+{
+  "name": "fail2ban-dashboardJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/garybake/fail2ban-dashboardJS",
+  "authors": [
+    "Gary Bake <garybake@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "bootstrap": "~3.2.0"
+  }
+}
