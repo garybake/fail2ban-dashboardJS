@@ -1,8 +1,8 @@
 {
   "name": "fail2ban-dashboardJS",
   "version": "0.0.0",
-  "description": "fail2ban-dashboardJS ====================",
-  "main": "index.js",
+  "description": "fail2ban-dashboardJS",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
