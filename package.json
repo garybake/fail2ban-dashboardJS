@@ -16,6 +16,7 @@
     "url": "https://github.com/garybake/fail2ban-dashboardJS/issues"
   },
   "dependencies": {
-    "express": "~4.9.7"
+    "express": "~4.9.7",
+    "body-parser": "~1.9.0"
   }
 }
