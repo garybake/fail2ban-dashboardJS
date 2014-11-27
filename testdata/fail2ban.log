@@ -1,0 +1,68 @@
+2014-09-28 06:25:05,884 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.6
+2014-09-28 06:25:08,275 fail2ban.filter : INFO   Log rotation detected for /var/log/auth.log
+2014-09-28 07:56:02,132 fail2ban.actions: WARNING [ssh] Ban 222.122.30.51
+2014-09-28 08:15:41,902 fail2ban.actions: WARNING [ssh] Ban 212.129.11.247
+2014-09-29 06:23:31,836 fail2ban.actions: WARNING [ssh] Ban 108.17.3.32
+2014-09-29 10:57:34,773 fail2ban.actions: WARNING [ssh] Ban 144.0.0.53
+2014-09-29 12:34:41,395 fail2ban.actions: WARNING [ssh] Ban 189.203.240.96
+2014-09-29 14:04:46,858 fail2ban.actions: WARNING [ssh] Ban 178.208.132.196
+2014-09-30 11:09:13,194 fail2ban.actions: WARNING [ssh] Ban 210.148.224.230
+2014-09-30 12:38:59,624 fail2ban.actions: WARNING [ssh] Ban 61.234.104.167
+2014-09-30 13:38:46,125 fail2ban.actions: WARNING [ssh] Ban 198.71.58.200
+2014-10-01 08:07:23,920 fail2ban.actions: WARNING [ssh] Ban 211.138.30.174
+2014-10-01 12:42:22,762 fail2ban.actions: WARNING [ssh] Ban 212.83.176.8
+2014-10-02 14:56:13,977 fail2ban.actions: WARNING [ssh] Ban 193.104.41.10
+2014-10-02 23:00:31,708 fail2ban.actions: WARNING [ssh] Ban 222.219.187.9
+2014-10-03 00:17:18,876 fail2ban.actions: WARNING [ssh] Ban 218.106.254.121
+2014-10-03 01:56:01,072 fail2ban.actions: WARNING [ssh] Ban 210.149.64.131
+2014-10-03 06:44:09,278 fail2ban.actions: WARNING [ssh] Ban 121.8.187.25
+2014-11-19 13:59:44,571 fail2ban.actions: WARNING [ssh] Ban 122.115.60.26
+2014-11-19 14:08:18,105 fail2ban.server : INFO   Stopping all jails
+2014-11-19 14:08:18,555 fail2ban.actions: WARNING [ssh] Unban 64.15.147.111
+2014-11-19 14:08:18,721 fail2ban.actions: WARNING [ssh] Unban 1.93.27.10
+2014-11-19 14:08:18,845 fail2ban.actions: WARNING [ssh] Unban 208.109.171.228
+2014-11-19 14:08:18,975 fail2ban.actions: WARNING [ssh] Unban 222.73.249.16
+2014-11-19 14:08:19,115 fail2ban.actions: WARNING [ssh] Unban 222.186.34.115
+2014-11-19 14:08:19,237 fail2ban.actions: WARNING [ssh] Unban 222.186.34.117
+2014-11-19 14:08:19,358 fail2ban.actions: WARNING [ssh] Unban 193.107.17.72
+2014-11-19 14:08:19,480 fail2ban.actions: WARNING [ssh] Unban 111.74.238.237
+2014-11-19 14:08:19,605 fail2ban.actions: WARNING [ssh] Unban 82.165.46.3
+2014-11-19 14:08:19,727 fail2ban.actions: WARNING [ssh] Unban 222.186.34.116
+2014-11-19 14:08:19,855 fail2ban.actions: WARNING [ssh] Unban 220.194.56.68
+2014-11-19 14:08:19,975 fail2ban.actions: WARNING [ssh] Unban 177.91.76.16
+2014-11-19 14:08:20,098 fail2ban.actions: WARNING [ssh] Unban 66.154.119.169
+2014-11-19 14:08:20,209 fail2ban.actions: WARNING [ssh] Unban 194.28.24.100
+2014-11-19 14:08:20,331 fail2ban.actions: WARNING [ssh] Unban 223.4.218.128
+2014-11-19 14:08:20,459 fail2ban.actions: WARNING [ssh] Unban 76.79.7.14
+2014-11-19 14:08:20,585 fail2ban.actions: WARNING [ssh] Unban 189.203.240.73
+2014-11-19 14:08:20,707 fail2ban.actions: WARNING [ssh] Unban 121.8.187.25
+2014-11-19 14:08:20,825 fail2ban.actions: WARNING [ssh] Unban 82.165.44.111
+2014-11-19 14:08:20,953 fail2ban.actions: WARNING [ssh] Unban 79.59.36.129
+2014-11-19 14:08:21,075 fail2ban.actions: WARNING [ssh] Unban 113.107.233.142
+2014-11-19 14:08:21,207 fail2ban.actions: WARNING [ssh] Unban 60.190.71.52
+2014-11-19 14:08:21,323 fail2ban.actions: WARNING [ssh] Unban 123.30.51.25
+2014-11-19 14:08:21,437 fail2ban.actions: WARNING [ssh] Unban 41.191.240.6
+2014-11-19 14:08:21,518 fail2ban.actions: WARNING [ssh] Unban 111.205.58.66
+2014-11-19 14:08:21,579 fail2ban.actions: WARNING [ssh] Unban 117.21.173.30
+2014-11-19 14:08:21,640 fail2ban.actions: WARNING [ssh] Unban 182.18.140.215
+2014-11-19 14:08:21,701 fail2ban.actions: WARNING [ssh] Unban 61.147.80.6
+2014-11-19 14:08:21,764 fail2ban.actions: WARNING [ssh] Unban 183.61.111.203
+2014-11-19 14:08:21,825 fail2ban.actions: WARNING [ssh] Unban 117.40.239.54
+2014-11-19 14:08:21,887 fail2ban.actions: WARNING [ssh] Unban 23.254.144.162
+2014-11-19 14:08:21,947 fail2ban.actions: WARNING [ssh] Unban 94.137.9.200
+2014-11-19 14:08:22,008 fail2ban.actions: WARNING [ssh] Unban 186.46.85.2
+2014-11-19 14:08:22,071 fail2ban.actions: WARNING [ssh] Unban 190.98.241.210
+2014-11-19 14:08:22,132 fail2ban.actions: WARNING [ssh] Unban 41.215.248.61
+2014-11-19 14:08:22,193 fail2ban.actions: WARNING [ssh] Unban 189.203.240.89
+2014-11-19 14:08:22,254 fail2ban.actions: WARNING [ssh] Unban 122.115.60.26
+2014-11-19 14:08:22,394 fail2ban.jail   : INFO   Jail 'ssh' stopped
+2014-11-19 14:08:22,405 fail2ban.server : INFO   Exiting Fail2ban
+2014-11-19 14:09:07,976 fail2ban.server : INFO   Changed logging target to /var/log/fail2ban.log for Fail2ban v0.8.6
+2014-11-19 14:09:07,987 fail2ban.jail   : INFO   Creating new jail 'ssh'
+2014-11-19 14:09:08,024 fail2ban.jail   : INFO   Jail 'ssh' uses Gamin
+2014-11-19 14:09:08,714 fail2ban.filter : INFO   Added logfile = /var/log/auth.log
+2014-11-19 14:09:08,733 fail2ban.filter : INFO   Set maxRetry = 6
+2014-11-19 14:09:08,770 fail2ban.filter : INFO   Set findtime = 600
+2014-11-19 14:09:08,790 fail2ban.actions: INFO   Set banTime = 864000
+2014-11-19 14:09:10,247 fail2ban.jail   : INFO   Jail 'ssh' started
+2014-11-19 14:09:14,947 fail2ban.actions: WARNING [ssh] Ban 122.115.60.26

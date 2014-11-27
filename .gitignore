@@ -5,3 +5,4 @@ dist
 bower_components
 *.zip
 build
+tmp.js
