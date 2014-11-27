@@ -6,7 +6,6 @@
     "Gary Bake <garybake@gmail.com>"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,7 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.26",
-    "bootstrap": "~3.2.0"
+    "angularjs": "1.2.25",
+    "bootstrap": "~3.3.1"
   }
 }
