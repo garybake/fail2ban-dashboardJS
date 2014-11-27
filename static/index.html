@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="testapp">
 <head>
   <meta charset="utf-8">
   <title>Fail2Ban Dashboard</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/angularjs/angular.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
     <h1>Fail2Ban Dashboard start page</h1>
-    <p>Nothing here {{'yet' + '!'}}</p>
+
+    <div ng-controller="MyCtrl">
+        <h1>Data Model</h1>
+        <p>Result: {{mydata.error}}</p>
+
+        <ul>
+          <li ng-repeat="event in mydata">{{event.type}} &middot; {{event.time}} &middot; {{event.service}} &middot; {{event.ip}}</li>
+        </ul>
+
+<!--         <h2>Raw Data</h2>
+        {{mydata}} -->
+    </div>
+
 </body>
 </html>
