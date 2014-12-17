@@ -7,7 +7,7 @@ F2BApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
     .when('/', {
         templateUrl: "app/home/home.html",
-        // controller: "AppMainCtrl"
+        controller: "HomeCtrl"
     })
     .when('/config', {
         templateUrl: 'app/config/config.html',

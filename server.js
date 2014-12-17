@@ -32,10 +32,8 @@ app.post('/api/appstatus', function(req, res){
 app.post('/api/serverstatus', function(req, res){
     var command = 'fail2ban-server status';
     exec(command, function(error, stdout, stderr){
-        // console.log(stdout);
         res.json({status: stdout});
     });
-    // res.json({status: "sss"});
 });
 
 app.post('/api/log', function(req, res) {
