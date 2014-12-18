@@ -1,1 +1,15 @@
-<p>@Banned</p>
+
+<div class="starter-template">
+    <table class="table">
+        <tr>
+            <th><center>Date</center></th>
+            <th><center>Service</center></th>
+            <th><center>IP Address</center></th>
+        </tr>
+        <tr ng-repeat="evt in banned.events">
+            <td>{{ evt.time }}</td>
+            <td>{{ evt.service }}</td>
+            <td>{{ evt.ip }}</td>
+        </tr>
+    </table>
+</div>

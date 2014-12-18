@@ -1,16 +1,17 @@
 
-F2BApp.controller('HomeCtrl', function($scope, $http){
+F2BApp.controller('HomeCtrl', function($http){
+    var me = this;
 
-    $scope.appstatus = {
+    me.appstatus = {
         status: "Unknown"
     };
     var postData = {};
 
     $http.post('/api/serverstatus', postData, $http.defaults.headers.post).then(function(response){
-        $scope.appstatus = response.data;
+        me.appstatus = response.data;
     });
 
-    $scope.doClick = function(){
+    me.doClick = function(){
         console.log('clicked');
     };
 });

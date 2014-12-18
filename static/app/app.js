@@ -7,7 +7,8 @@ F2BApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
     .when('/', {
         templateUrl: "app/home/home.html",
-        controller: "HomeCtrl"
+        controller: "HomeCtrl",
+        controllerAs: 'home'
     })
     .when('/config', {
         templateUrl: 'app/config/config.html',
@@ -15,7 +16,8 @@ F2BApp.config(['$routeProvider', function ($routeProvider) {
     })
     .when('/banned', {
         templateUrl: 'app/banned/banned.html',
-        // controller: "EmailsCtrl"
+        controller: "BannedCtrl",
+        controllerAs: 'banned'
     })
     .otherwise({
         redirectTo: '/'
