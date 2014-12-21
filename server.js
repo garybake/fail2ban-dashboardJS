@@ -24,19 +24,19 @@ app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 //     next();
 // });
 
-app.post('/api/appstatus', function(req, res){
+app.get('/api/appstatus', function(req, res){
     var status = {status: "ok"};
     res.json(status);
 });
 
-app.post('/api/serverstatus', function(req, res){
+app.get('/api/serverstatus', function(req, res){
     var command = 'fail2ban-server status';
     exec(command, function(error, stdout, stderr){
         res.json({status: stdout});
     });
 });
 
-app.post('/api/log', function(req, res) {
+app.get('/api/log', function(req, res) {
     var eventsList = {events: []};
 
     fs.readFile(config.f2b.logFile, "utf8", function (err, data) {
@@ -53,7 +53,7 @@ app.post('/api/log', function(req, res) {
     });
 });
 
-app.post('/api/conf', function(req, res) {
+app.get('/api/conf', function(req, res) {
     var conFile = config.f2b.jailConfFile;
     var configData = ini.parse(fs.readFileSync(conFile, 'utf-8'));
 

@@ -5,9 +5,9 @@ F2BApp.controller('HomeCtrl', function($http){
     me.appstatus = {
         status: "Unknown"
     };
-    var postData = {};
 
-    $http.post('/api/serverstatus', postData, $http.defaults.headers.post).then(function(response){
+    var getData = {};
+    $http.get('/api/serverstatus', getData, $http.defaults.headers.get).then(function(response){
         me.appstatus = response.data;
     });
 

@@ -12,7 +12,8 @@ F2BApp.config(['$routeProvider', function ($routeProvider) {
     })
     .when('/config', {
         templateUrl: 'app/config/config.html',
-        // controller: "EmailsCtrl"
+        controller: "ConfigCtrl",
+        controllerAs: 'config'
     })
     .when('/banned', {
         templateUrl: 'app/banned/banned.html',
